@@ -1,0 +1,204 @@
+@media all and (max-width: 1600px) {
+    html{
+        scroll-behavior:smooth ;
+    }
+    h1{
+        color: chartreuse;
+    }
+    .hamburger{
+        display: none;
+    }
+    .nav-bar{
+      list-style: none;
+      display: flex;
+      justify-content: flex-end;
+      position: relative;
+      top: -13.7vh;
+      
+  }
+  
+.img{
+    height: 70vh;
+    width: 100%;
+}
+  
+  li{
+      margin: 3vw;
+  }
+  li:hover{
+      background-color:chartreuse;
+      width: 9vw;
+      padding: 0 2vw 0 2vw;
+  }
+  .active{
+      color: red;
+      
+  }
+  .bodytext{
+      position: relative;
+      bottom: 46vh;
+      color: white;
+      font-size: 3rem;
+      left: 10vw;
+  }
+  p{
+      position: relative;
+      bottom: 50vh;
+      color: white;
+      margin: 0 2vw 0 4vw;
+  }
+  .about{
+   background-color: whitesmoke;
+   height: 60vh;
+   margin: 0 0 0 0;
+   position: relative;
+   bottom: 30vh;
+  }
+  .contact{
+    background-color: white;
+    height: 60vh;
+    margin: 0 0 0 0;
+    position: relative;
+    bottom: 28vh;
+  }
+  .Blog{
+    background-color: whitesmoke;
+    height: 60vh;
+    margin: 0 0 0 0;
+    position: relative;
+    bottom: 28vh;
+  }
+h2{
+    color: rgb(17, 216, 43);
+    padding: 2vh 0 0 30vw;
+}
+.tothemoon{
+    background-color: green;
+    width: 3vw;
+    margin: auto;
+}
+.button{
+  width: 5vw; 
+  background-color: green; 
+  position: fixed;
+  top: 90vh;
+  left: 85vw;
+  z-index: 100;
+  display: none;
+  
+}
+}
+
+@media all and (max-width: 1400px) {
+    .nav-bar{
+ position: relative;
+ top: -13.5vh;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .nav-bar{
+ position: relative;
+ top: -13vh;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    .nav-bar{
+ position: relative;
+ top: -12.7vh;
+    }
+}
+
+
+@media all and (max-width: 1100px) {
+    .nav-bar{
+ position: relative;
+ top: -10.5vh;
+    }
+}
+
+
+
+
+
+
+@media all and (max-width: 796px) {
+.headcontainer{
+  background-color: rgb(255, 255, 255);
+  height: 5vh;
+}
+ .nav-bar{
+    display: none;
+    flex-direction: column;
+    position:relative;
+    top: -8.62vh; 
+    background-color: rgb(255, 255, 255);  
+}
+.show{
+    display: flex;
+}
+li{
+    margin: 1vw;
+}
+li:hover{
+    width: 13vw;
+}
+.hamburger{
+    display: flex;
+    background-color: white;
+    border: none;
+    position: relative;
+    left: 90vw;
+    top: -7.8vh;
+
+}
+.home{
+    height: 90vh;
+    background-color: rgb(255, 255, 255);
+}
+.img {
+    width: 100%;
+    height: 80vh;
+    margin: 2vh 0 0 0;
+}
+.bodytext{
+    position: relative;
+    bottom: 58vh;
+    color: white;
+    font-size: 3rem;
+    left: 10vw;
+}
+p{
+    position: relative;
+    bottom: 62vh;
+    color: white;
+    margin: 0 2vw 0 4vw;
+}
+.about{
+    position: relative;
+    bottom: 28vh;
+}
+.contact{
+    position: relative;
+    bottom: 28vh;
+}
+.blog{
+    position: relative;
+    bottom: 28vh;
+}
+.tothemoon{
+    background-color: green;
+    width: 5vw;
+}
+.button{
+  width: 8vw; 
+  background-color: green; 
+  position: fixed;
+  top: 90vh;
+  left: 85vw;
+  z-index: 100;
+  display: none;
+  
+}
+}
